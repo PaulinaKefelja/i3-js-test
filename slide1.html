@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pitanje 1</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="createQuestion(), createAnswers()">
+	<div class="container">
+	<div class="header">
+		<h1>FUN QUIZ</h1>
+	</div>
+		<div class="body_container">
+		<div class="navigation">
+			<ul>
+  			<li><a href="#" id="q1" value=1 onclick="createQuestion(), createAnswers()">1</a></li>
+  			<li><a href="#" id="q2" value=2>2</a></li>
+ 			<li><a href="#" id="q3" value=3>3</a></li>
+  			<li><a href="#" id="q4" value=4>4</a></li>
+			</ul>
+		</div>
+		
+		<div class="container">
+			
+			<div class="question_container" id="questionContainer" >
+				
+			
+			</div>
+			<div class="controls">
+				<button id="previous_button" class="previous_btn">PREVIOUS</button>
+				<button id="next_button" class="next_btn hide_next" onclick="createQuestion(), createAnswers()">NEXT</button>
+			</div>
+		</div>
+			
+			
+	</div>
+</body>
+</html>

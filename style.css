@@ -1,0 +1,89 @@
+body{
+  background-color: #39393A;
+  
+}
+
+h2, h3, h1{
+  color: #F4FFF8;
+}
+
+
+.main{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2{
+  font-family: 'Herr Von Muellerhoff';
+  font-size: clamp(1rem, 2vw, 15rem); 
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+
+h1{
+  font-family: basic-sans, sans-serif;
+  font-size: clamp(4rem, 6vw, 18rem); 
+  font-weight: normal; 
+  margin: 0;
+}
+
+h3{
+  font-family:  basic-sans, sans-serif;
+  font-size: clamp(1rem, 2vw, 15rem); 
+  font-weight: normal;
+  margin-top: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+
+.button {
+  border-radius: 0px;
+  background-color: #FF521B;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 15rem);
+  padding: 1%;
+  width: 30%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+  font-family: basic-sans, sans-serif;
+}
+
+.button span:after {
+  content: '\00bb';
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a{
+  color: #F4FFF8;
+}
+
